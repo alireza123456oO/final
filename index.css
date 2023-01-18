@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(170, 157, 255, 1), rgb(90, 74, 163));
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width:350px;
+    height: 600px;
+    background-color: rgba(35, 28, 45, 0.89999);
+    border-radius: 30px;
+}
