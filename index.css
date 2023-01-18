@@ -18,8 +18,8 @@
     background-color: rgba(35, 28, 45, 0.89999);
     border-radius: 30px;
     box-shadow: 2px 2px 5px black;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .container-header {
