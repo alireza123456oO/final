@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .background {
@@ -12,8 +13,16 @@
 }
 
 .container {
-    width:350px;
-    height: 600px;
+    width:400px;
+    height: 550px;
     background-color: rgba(35, 28, 45, 0.89999);
     border-radius: 30px;
+}
+
+.container-header {
+    color: white;
+    font-size: x-large;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
 }
