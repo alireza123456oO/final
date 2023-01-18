@@ -13,11 +13,13 @@
 }
 
 .container {
-    width:400px;
-    height: 550px;
+    width:300px;
+    height: 500px;
     background-color: rgba(35, 28, 45, 0.89999);
     border-radius: 30px;
     box-shadow: 2px 2px 5px black;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .container-header {
@@ -31,8 +33,6 @@
 
 .value-entry {
     height: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .label {
@@ -59,4 +59,59 @@
 
 .input:hover {
     background-color: rgba(170, 157, 255, 0.429);
+}
+
+.counter-container {
+    float: left;
+    width: 50%;
+}
+
+.counter-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(170, 157, 255);
+    text-align: center;
+    line-height: 40px;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: rgb(196, 187, 252);
+}
+
+.counter-num {
+    color: white;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.counter-label {
+    color: white;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.status {
+    width: 50%;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+}
+
+.status-label {
+    font-size: large;
+    color: white;
+}
+
+.status-value {
+    font-size: large;
+    color: white;
+    font-weight: bold;
 }
